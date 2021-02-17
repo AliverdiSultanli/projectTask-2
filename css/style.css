@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.active{
+    color: red!important;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+}
+.secondary{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.article{
+    background-color: lightgreen;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    padding: 20px;
+    background-color: lightgrey;
+}
