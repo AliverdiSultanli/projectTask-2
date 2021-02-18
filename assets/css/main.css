@@ -1,36 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+.navigation li a{
+    text-decoration: none;
 }
-body{
-    height: 100vh;
-}
-.active{
-    color: red!important;
-}
-.head{
+.header{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
 }
-.menu ul li a{
-    text-decoration: none;
-}
-.menu ul li a:hover{
-    text-decoration: none;
-}
-.secondary{
-    width: 100%;
+.menu-and-information{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    width: 100%;
     box-sizing: border-box;
+    padding: 25px;
 }
-.article{
+.information{
     background-color: lightgreen;
 }
-footer{
+.foot{
     width: 100%;
     display: flex;
     justify-content:flex-start;

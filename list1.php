@@ -1,19 +1,19 @@
 <html>
     <head>
-        <title>Project 2</title>
+        <title>ITWE - Project 2 - the list of your favourite sport activities</title>
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body>
-        <header class="header">
-            <p
-                    style="<?php if(2*intval(date('d')/2)==date('d')){ echo 'color:brown';} else{ echo 'color: orange;'; } ?>">
-                <?= date('d m y'); ?>
-            </p>
-        </header>
+    <header class="header">
+        <p
+                style="<?php if(2*intval(date('d')/2)==date('d')){ echo 'color:brown';} else{ echo 'color: orange;'; } ?>">
+            <?= date('d m y'); ?>
+        </p>
+    </header>
 
         <section class="menu-and-information">
             <div class="information">
-
+                The list of your favourite sport activities
             </div>
             <div class="navigator">
                 <ul class="navigation">
@@ -38,10 +38,10 @@
 
         <section class="foot">
             <?php
-                $now = date('H');
-                $clause = 20;
-                if($now < $clause){
-            ?>
+            $now = date('H');
+            $clause = 20;
+            if($now < $clause){
+                ?>
                 <p style="<?php if(2*intval(date('d')/2)==date('d')){ echo 'color:brown';}else{ echo 'color:orange';} ?>">
                     <?= date('l'); ?>
                 </p>
